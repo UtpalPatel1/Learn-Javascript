@@ -15,7 +15,7 @@ console.log(name2);
 // "33abc">> nan
 //true=1,false=0
 
-let isLoggedIn="ered";
+let isLoggedIn="";
 let booleanLoggedIn = Boolean(isLoggedIn);
 console.log(typeof booleanLoggedIn);
 console.log(booleanLoggedIn);
@@ -28,4 +28,11 @@ console.log(booleanLoggedIn);
  let conNum = String(stringNum);
  console.log(typeof conNum);
  console.log(conNum);
+
+ let gameCounter =11;
+ gameCounter++;
+ console.log(gameCounter);
+
+ // read some topic on prefix & postfix from mdn website or documentation.
+
 
